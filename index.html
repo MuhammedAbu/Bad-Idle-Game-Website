@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bad Idle Game Website with Download & Video</title>
+   <!-- Favicon Link -->
+   <link rel="icon" href="./public/windowIcon.png" type="image/png">
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- Video Background -->
+  <video autoplay muted loop id="background-video">
+    <source src="./public/knight-8s-looped-enhanced.mp4" type="video/mp4">
+  </video>
+
+  <!-- Content Overlay -->
+  <div id="content">
+    <h1>Bad Idle Game</h1>
+    <p> Download Installer for Windows below.
+    </p>
+    <a href="./public/bad-idle-game-installer_1.0.exe" download class="btn">Download</a>
+  </div>
+
+  <!-- Icon in the bottom-right corner -->
+  <img id="dynamic-icon" src="./public/windowIcon.png" alt="Icon" class="icon" onclick="iconClicked()">
+
+  <script src="script.js"></script>
+</body>
+</html>
