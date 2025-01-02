@@ -93,7 +93,6 @@ p {
 }
 
 .btn:hover {
-  transform: translateY(-5px);
   background: linear-gradient(90deg, #3d82e3, #2c6dc1); /* Reverse gradient */
   box-shadow: 0px 10px 20px rgba(45, 109, 193, 0.8); /* Slightly more prominent shadow */
 }
